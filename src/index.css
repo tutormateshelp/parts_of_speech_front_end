@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.adjective,
+.adjectivecomparative,
+.adjectivesuperlative {
+  color: #808000;
+}
+
+.adverb,
+.adverbcomparative,
+.adverbsuperlative,
+.whadverb {
+  color: #87ceeb;
+}
+
+.conjunction,
+.coordconjuncn {
+  color: #7030a0;
+}
+
+.determiner,
+.whdeterminer {
+  color: #9acd32;
+}
+
+.noun,
+.existentialthere,
+.foreignword,
+.nounsingormass,
+.propernounsing,
+.propernounplural,
+.nounplural,
+.possessiveending,
+.particle,
+.symbol {
+  color: #008000;
+}
+
+.preposition {
+  color: #ffc000;
+}
+
+.pronoun,
+.possessivepronoun,
+.personalpronoun,
+.whpronoun,
+.possessivewh {
+  color: #7fff00;
+}
+
+.verb,
+.modal,
+.verbbaseform,
+.verbpasttense,
+.verbgerund,
+.verbpastpart,
+.verbpresent {
+  color: #0070c0;
+}
